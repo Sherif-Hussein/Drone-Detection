@@ -43,4 +43,8 @@ python code/cost_bench.py --cfg yolo11n.yaml --shape 512 640 --tag ir_n640 --out
 
 ## Citation
 
-If you use this code, please cite the paper above (full reference to be added on publication). A Zenodo DOI for this repository will be added before publication.
+If you use this code or these results, please cite the paper above (full reference to be added on publication); GitHub's "Cite this repository" button gives the details from `CITATION.cff`. A Zenodo DOI for this repository will be added before publication.
+
+## License
+
+The code is released under the MIT License, copyright (c) 2026 Sherif Hussein. See `LICENSE`.

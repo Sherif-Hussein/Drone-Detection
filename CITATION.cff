@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite them as below."
+title: "Drone detection with unaligned thermal and visible cameras: code and results"
+type: software
+authors:
+  - family-names: Hussein
+    given-names: Sherif
+    email: s.hussein@mtc.edu.eg
+    affiliation: "Military Technical College, Cairo, Egypt"
+license: MIT
+repository-code: "https://github.com/Sherif-Hussein/Drone-Detection"
+version: 1.0.0
+date-released: 2026-10-23
+preferred-citation:
+  type: article
+  title: "Fusion of unaligned thermal and visible cameras for drone detection: a controlled analysis and lightweight detectors for CPU-only stations"
+  authors:
+    - family-names: Hussein
+      given-names: Sherif
+  journal: "International Journal of Intelligent Robotics and Applications"
+  status: submitted
+  year: 2026
