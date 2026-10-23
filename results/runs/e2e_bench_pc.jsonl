@@ -1,0 +1,9 @@
+{"mode": "single", "tag": "nano", "cam": "thermal", "e2e_ms_median": 120.54340000031516, "e2e_ms_p90": 145.25030000077095}
+{"mode": "single", "tag": "small", "cam": "thermal", "e2e_ms_median": 233.47990000002028, "e2e_ms_p90": 281.2094299999444}
+{"mode": "single", "tag": "nano", "cam": "rgb", "e2e_ms_median": 141.82869999967807, "e2e_ms_p90": 175.44988000154262}
+{"mode": "single", "tag": "small", "cam": "rgb", "e2e_ms_median": 344.02905000024475, "e2e_ms_p90": 380.95802999851}
+{"mode": "pair", "tag": "nano_pair", "thermal_e2e_ms_median": 211.7174499999237, "rgb_e2e_ms_median": 263.70984999994107, "pair_fps": 3.79204644801938}
+{"mode": "pair", "tag": "small_pair", "thermal_e2e_ms_median": 485.6910500002414, "rgb_e2e_ms_median": 656.8456999993941, "pair_fps": 1.5224275655620831}
+{"mode": "memory", "tag": "nano_separate", "kind": "two separate networks", "ram_extra_MB": 481.1484375}
+{"mode": "memory", "tag": "nano_shared", "kind": "shared (one dynamic-shape network)", "ram_extra_MB": 475.91015625}
+{"mode": "memory", "tag": "small_separate", "kind": "two separate networks", "ram_extra_MB": 669.421875}

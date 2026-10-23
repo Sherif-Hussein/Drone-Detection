@@ -1,0 +1,51 @@
+gauss 0.0 0.0 {'box-avg ProbEn': np.float64(0.0442), 'anchored ProbEn + unmatched RGB': np.float64(0.0308)}
+gauss 2.5 3.0 {'box-avg ProbEn': np.float64(0.0441), 'anchored ProbEn + unmatched RGB': np.float64(0.029)}
+gauss 5.0 6.0 {'box-avg ProbEn': np.float64(0.0419), 'anchored ProbEn + unmatched RGB': np.float64(0.0254)}
+gauss 7.5 9.0 {'box-avg ProbEn': np.float64(0.036), 'anchored ProbEn + unmatched RGB': np.float64(0.0238)}
+gauss 10.0 11.9 {'box-avg ProbEn': np.float64(0.0238), 'anchored ProbEn + unmatched RGB': np.float64(0.0211)}
+gauss 12.5 14.9 {'box-avg ProbEn': np.float64(0.0007), 'anchored ProbEn + unmatched RGB': np.float64(0.0179)}
+gauss 15.0 17.9 {'box-avg ProbEn': np.float64(-0.0415), 'anchored ProbEn + unmatched RGB': np.float64(0.0115)}
+gauss 17.5 20.9 {'box-avg ProbEn': np.float64(-0.0965), 'anchored ProbEn + unmatched RGB': np.float64(0.0067)}
+gauss 20.0 23.9 {'box-avg ProbEn': np.float64(-0.1483), 'anchored ProbEn + unmatched RGB': np.float64(0.0048)}
+gauss 22.5 26.9 {'box-avg ProbEn': np.float64(-0.2025), 'anchored ProbEn + unmatched RGB': np.float64(0.0008)}
+gauss 25.0 29.8 {'box-avg ProbEn': np.float64(-0.2536), 'anchored ProbEn + unmatched RGB': np.float64(-0.002)}
+gauss 27.5 32.8 {'box-avg ProbEn': np.float64(-0.3014), 'anchored ProbEn + unmatched RGB': np.float64(-0.0032)}
+gauss 30.0 35.8 {'box-avg ProbEn': np.float64(-0.3464), 'anchored ProbEn + unmatched RGB': np.float64(-0.0063)}
+gauss 32.5 38.8 {'box-avg ProbEn': np.float64(-0.3804), 'anchored ProbEn + unmatched RGB': np.float64(-0.0071)}
+gauss 35.0 41.8 {'box-avg ProbEn': np.float64(-0.4148), 'anchored ProbEn + unmatched RGB': np.float64(-0.0096)}
+gauss 37.5 44.8 {'box-avg ProbEn': np.float64(-0.4448), 'anchored ProbEn + unmatched RGB': np.float64(-0.0109)}
+gauss 40.0 47.8 {'box-avg ProbEn': np.float64(-0.4678), 'anchored ProbEn + unmatched RGB': np.float64(-0.0123)}
+empirical 0.0 0.0 {'box-avg ProbEn': 0.0442, 'anchored ProbEn + unmatched RGB': 0.0308}
+empirical 0.1 2.1 {'box-avg ProbEn': 0.0317, 'anchored ProbEn + unmatched RGB': 0.0198}
+empirical 0.2 4.2 {'box-avg ProbEn': 0.0099, 'anchored ProbEn + unmatched RGB': 0.0131}
+empirical 0.3 6.3 {'box-avg ProbEn': -0.0265, 'anchored ProbEn + unmatched RGB': 0.0108}
+empirical 0.4 8.4 {'box-avg ProbEn': -0.0408, 'anchored ProbEn + unmatched RGB': 0.0094}
+empirical 0.5 10.5 {'box-avg ProbEn': -0.0581, 'anchored ProbEn + unmatched RGB': 0.0032}
+empirical 0.6 12.6 {'box-avg ProbEn': -0.0746, 'anchored ProbEn + unmatched RGB': 0.0017}
+empirical 0.7 14.7 {'box-avg ProbEn': -0.0884, 'anchored ProbEn + unmatched RGB': -0.0002}
+empirical 0.8 16.8 {'box-avg ProbEn': -0.1066, 'anchored ProbEn + unmatched RGB': -0.0037}
+empirical 0.9 18.9 {'box-avg ProbEn': -0.1228, 'anchored ProbEn + unmatched RGB': -0.0056}
+empirical 1.0 21.0 {'box-avg ProbEn': -0.1273, 'anchored ProbEn + unmatched RGB': -0.0076}
+empirical 1.1 23.1 {'box-avg ProbEn': -0.1328, 'anchored ProbEn + unmatched RGB': -0.0083}
+empirical 1.2 25.1 {'box-avg ProbEn': -0.1368, 'anchored ProbEn + unmatched RGB': -0.0084}
+empirical 1.3 27.2 {'box-avg ProbEn': -0.1463, 'anchored ProbEn + unmatched RGB': -0.0092}
+empirical 1.4 29.3 {'box-avg ProbEn': -0.1555, 'anchored ProbEn + unmatched RGB': -0.0142}
+empirical 1.5 31.4 {'box-avg ProbEn': -0.1522, 'anchored ProbEn + unmatched RGB': -0.0151}
+coverage 0.0 21.0 {'box-avg ProbEn': np.float64(-0.1273), 'anchored ProbEn + unmatched RGB': np.float64(-0.0076)}
+coverage 0.1 16.9 {'box-avg ProbEn': np.float64(-0.1102), 'anchored ProbEn + unmatched RGB': np.float64(-0.0044)}
+coverage 0.2 13.8 {'box-avg ProbEn': np.float64(-0.0953), 'anchored ProbEn + unmatched RGB': np.float64(-0.0025)}
+coverage 0.3 9.7 {'box-avg ProbEn': np.float64(-0.0786), 'anchored ProbEn + unmatched RGB': np.float64(0.0024)}
+coverage 0.4 5.9 {'box-avg ProbEn': np.float64(-0.0615), 'anchored ProbEn + unmatched RGB': np.float64(0.0062)}
+coverage 0.5 0.1 {'box-avg ProbEn': np.float64(-0.0409), 'anchored ProbEn + unmatched RGB': np.float64(0.009)}
+coverage 0.6 0.0 {'box-avg ProbEn': np.float64(-0.025), 'anchored ProbEn + unmatched RGB': np.float64(0.0125)}
+coverage 0.7 0.0 {'box-avg ProbEn': np.float64(-0.0063), 'anchored ProbEn + unmatched RGB': np.float64(0.0163)}
+coverage 0.8 0.0 {'box-avg ProbEn': np.float64(0.0128), 'anchored ProbEn + unmatched RGB': np.float64(0.0205)}
+coverage 0.9 0.0 {'box-avg ProbEn': np.float64(0.0308), 'anchored ProbEn + unmatched RGB': np.float64(0.0239)}
+coverage 1.0 0.0 {'box-avg ProbEn': np.float64(0.0442), 'anchored ProbEn + unmatched RGB': np.float64(0.0308)}
+crossing gauss box-avg ProbEn {'point': 14.975792687515803, 'ci95': [10.851761248495396, 19.826041903303235], 'frac_resamples_with_crossing': 1.0, 'x': 'median error (RGB px)'}
+crossing gauss anchored ProbEn + unmatched RGB {'point': 27.685466419100575, 'ci95': [10.412435631592789, 45.338128008243395], 'frac_resamples_with_crossing': 0.909, 'x': 'median error (RGB px)'}
+crossing empirical box-avg ProbEn {'point': 4.763842179571347, 'ci95': [3.375497039967789, 5.613334142463828], 'frac_resamples_with_crossing': 1.0, 'x': 'median error (RGB px)'}
+crossing empirical anchored ProbEn + unmatched RGB {'point': 14.407411937470657, 'ci95': [1.7614544204964118, 23.727113177368054], 'frac_resamples_with_crossing': 0.965, 'x': 'median error (RGB px)'}
+crossing coverage box-avg ProbEn {'point': 0.7331564482118605, 'ci95': [0.5608969072670842, 0.887759615283485], 'frac_resamples_with_crossing': 1.0, 'x': 'fraction of frames with exact registration'}
+crossing coverage anchored ProbEn + unmatched RGB {'point': 0.25156341726381093, 'ci95': [0.015947382461490727, 0.8332046152374925], 'frac_resamples_with_crossing': 0.9, 'x': 'fraction of frames with exact registration'}
+saved

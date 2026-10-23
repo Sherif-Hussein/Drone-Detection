@@ -1,0 +1,8 @@
+{"model": "yolo11n", "cam": "thermal", "backend": "pytorch", "median_ms": 112.69660000107251, "p90_ms": 123.73465999262407, "fps": 8.873382160513122, "runs": 50}
+{"model": "yolo11n", "cam": "rgb", "backend": "pytorch", "median_ms": 171.3566999824252, "p90_ms": 270.0496500125155, "fps": 5.835779984690197, "runs": 50}
+{"model": "yolo11s", "cam": "thermal", "backend": "pytorch", "median_ms": 240.05064999801107, "p90_ms": 288.2272699906025, "fps": 4.165787511961686, "runs": 50}
+{"model": "yolo11s", "cam": "rgb", "backend": "pytorch", "median_ms": 431.56669999007136, "p90_ms": 546.8425500148442, "fps": 2.317138926666506, "runs": 50}
+{"model": "yolo11n", "cam": "thermal", "backend": "onnx", "median_ms": 95.13985001831315, "p90_ms": 116.89522999804467, "fps": 10.51084272055835, "runs": 50}
+{"model": "yolo11n", "cam": "rgb", "backend": "onnx", "median_ms": 145.81940000061877, "p90_ms": 175.23670999798924, "fps": 6.8577980707351465, "runs": 50}
+{"model": "yolo11s", "cam": "thermal", "backend": "onnx", "median_ms": 236.5620500058867, "p90_ms": 276.04202996590175, "fps": 4.227220722745325, "runs": 50}
+{"model": "yolo11s", "cam": "rgb", "backend": "onnx", "median_ms": 355.655849998584, "p90_ms": 427.952060039388, "fps": 2.8117068790067177, "runs": 50}

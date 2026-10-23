@@ -1,0 +1,11 @@
+E0 (baseline) {'alone': 0.8237, 'fixed': 0.8525, 'cv': 0.8526}
+E1 (+ Anti-UAV410 scenes) {'alone': 0.8826, 'fixed': 0.8864, 'cv': 0.8833}
+E5 (+ CLAHE/top-hat channels) {'alone': 0.871, 'fixed': 0.8853, 'cv': 0.8829}
+Main-study IR detector {'alone': 0.8883, 'fixed': 0.8956, 'cv': 0.8876}
+E1 (+ Anti-UAV410 scenes)|alone - E0 (baseline)|alone 0.0589 [0.011, 0.118] p_holm 0.014
+E1 (+ Anti-UAV410 scenes)|cv - E1 (+ Anti-UAV410 scenes)|alone 0.0008 [-0.0021, 0.0073] p_holm 0.988
+E1 (+ Anti-UAV410 scenes)|fixed - E1 (+ Anti-UAV410 scenes)|alone 0.0039 [-0.0013, 0.0121] p_holm 0.483
+E1 (+ Anti-UAV410 scenes)|cv - E0 (baseline)|alone 0.0597 [0.0101, 0.1222] p_holm 0.02
+E0 (baseline)|cv - E0 (baseline)|alone 0.0289 [0.0053, 0.0609] p_holm 0.018
+E5 (+ CLAHE/top-hat channels)|cv - E5 (+ CLAHE/top-hat channels)|alone 0.0119 [-0.0004, 0.0228] p_holm 0.268
+Main-study IR detector|cv - Main-study IR detector|alone -0.0007 [-0.0055, 0.0092] p_holm 0.988

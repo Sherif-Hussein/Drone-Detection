@@ -1,0 +1,157 @@
+{
+ "sequences": {
+  "train": 160,
+  "val": 67,
+  "test": 91
+ },
+ "frames": {
+  "train": 3765,
+  "val": 1561,
+  "test": 2147
+ },
+ "exist_rate": {
+  "IR": 0.9863508631071859,
+  "RGB": 0.9432624113475178
+ },
+ "sqrt_area_hist": {
+  "IR": {
+   "edges": [
+    0,
+    8,
+    16,
+    24,
+    32,
+    48,
+    64,
+    96,
+    128,
+    256,
+    10000
+   ],
+   "counts": [
+    0,
+    33,
+    465,
+    1481,
+    3976,
+    1178,
+    232,
+    6,
+    0,
+    0
+   ],
+   "median": 37.094473981982816
+  },
+  "RGB": {
+   "edges": [
+    0,
+    8,
+    16,
+    24,
+    32,
+    48,
+    64,
+    96,
+    128,
+    256,
+    10000
+   ],
+   "counts": [
+    0,
+    2,
+    18,
+    58,
+    581,
+    927,
+    3043,
+    1767,
+    652,
+    1
+   ],
+   "median": 85.93020423576334
+  }
+ },
+ "brightness_hist": {
+  "edges": [
+   0,
+   16,
+   32,
+   48,
+   64,
+   80,
+   96,
+   112,
+   128,
+   144,
+   160,
+   176,
+   192,
+   208,
+   224,
+   240,
+   256
+  ],
+  "counts": [
+   2280,
+   283,
+   44,
+   55,
+   37,
+   272,
+   1145,
+   1635,
+   1575,
+   104,
+   25,
+   18,
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "light_bins": {
+  "night(<50)": 2616,
+  "dim(50-100)": 485,
+  "day(>=100)": 4372
+ },
+ "image_size": {
+  "IR": [
+   640,
+   512
+  ],
+  "RGB": [
+   1920,
+   1080
+  ],
+  "RGBs": [
+   960,
+   540
+  ]
+ },
+ "discovery": {
+  "n_sequences": 318,
+  "by_split": {
+   "train": 160,
+   "val": 67,
+   "test": 91
+  },
+  "example": {
+   "IR": {
+    "json": "/kaggle/input/datasets/mm1991/anti-uav-dataset-300/test/20190925_111757_1_1/infrared.json",
+    "video": "/kaggle/input/datasets/mm1991/anti-uav-dataset-300/test/20190925_111757_1_1/infrared.mp4"
+   },
+   "RGB": {
+    "json": "/kaggle/input/datasets/mm1991/anti-uav-dataset-300/test/20190925_111757_1_1/visible.json",
+    "video": "/kaggle/input/datasets/mm1991/anti-uav-dataset-300/test/20190925_111757_1_1/visible.mp4"
+   }
+  }
+ },
+ "mapping_global": {
+  "ax": 2.6353545215182548,
+  "bx": 111.61568115921744,
+  "ay": 2.6255759563277126,
+  "by": -237.04349897806856
+ },
+ "prep_minutes": 54.4
+}

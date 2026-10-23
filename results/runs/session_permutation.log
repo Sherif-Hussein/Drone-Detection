@@ -1,0 +1,31 @@
+IR Anchored ProbEn - IR only                                    d -0.0026 p_perm 0.438 holm 1.000 p_boot 0.093 equiv {'0.005': False, '0.01': True, '0.02': True}
+IR Anchored MAX - IR only                                       d +0.0015 p_perm 0.293 holm 1.000 p_boot 0.143 equiv {'0.005': True, '0.01': True, '0.02': True}
+IR Anchored condition-aware - IR only                           d -0.0015 p_perm 0.725 holm 1.000 p_boot 0.061 equiv {'0.005': True, '0.01': True, '0.02': True}
+IR Anchored ProbEn + temporal - IR only                         d -0.0021 p_perm 0.531 holm 1.000 p_boot 0.252 equiv {'0.005': True, '0.01': True, '0.02': True}
+IR Late ProbEn (box avg.) - IR only                             d -0.2698 p_perm 0.002 holm 0.025 p_boot 0.000 equiv {'0.005': False, '0.01': False, '0.02': False}
+IR Late OR (box avg.) - IR only                                 d -0.0272 p_perm 0.008 holm 0.070 p_boot 0.001 equiv {'0.005': False, '0.01': False, '0.02': False}
+IR Late condition-aware (box avg.) - IR only                    d -0.2531 p_perm 0.002 holm 0.025 p_boot 0.000 equiv {'0.005': False, '0.01': False, '0.02': False}
+IR Pixel-level, IR grid - IR only                               d -0.0068 p_perm 0.387 holm 1.000 p_boot 0.356 equiv {'0.005': False, '0.01': False, '0.02': True}
+IR Hybrid (IR+RGB+pixel) - IR only                              d -0.0631 p_perm 0.387 holm 1.000 p_boot 0.004 equiv {'0.005': False, '0.01': False, '0.02': False}
+IR Anchored hybrid (IR+RGB+pixel) - IR only                     d -0.0027 p_perm 0.348 holm 1.000 p_boot 0.005 equiv {'0.005': False, '0.01': True, '0.02': True}
+IR Cascade (mapped) - IR only                                   d -0.6308 p_perm 0.002 holm 0.025 p_boot 0.000 equiv {'0.005': False, '0.01': False, '0.02': False}
+IR Anchored ProbEn, GT-fitted map - IR only                     d -0.0028 p_perm 0.453 holm 1.000 p_boot 0.121 equiv {'0.005': False, '0.01': True, '0.02': True}
+IR Anchored ProbEn - Late ProbEn (box avg.)                     d +0.2673 p_perm 0.002 holm 0.025 p_boot 0.000 equiv {'0.005': False, '0.01': False, '0.02': False}
+RGB Anchored ProbEn - RGB only                                   d -0.0016 p_perm 0.137 holm 0.410 p_boot 0.049 equiv {'0.005': True, '0.01': True, '0.02': True}
+RGB Cascade + RGB detector - RGB only                            d -0.0008 p_perm 0.807 holm 1.000 p_boot 0.771 equiv {'0.005': False, '0.01': True, '0.02': True}
+RGB Anchored: RGB + cascade - RGB only                           d -0.0001 p_perm 0.939 holm 1.000 p_boot 0.778 equiv {'0.005': True, '0.01': True, '0.02': True}
+RGB Pixel-level, RGB grid - RGB only                             d -0.0364 p_perm 0.002 holm 0.010 p_boot 0.018 equiv {'0.005': False, '0.01': False, '0.02': False}
+RGB Late ProbEn (box avg.) - RGB only                            d -0.3502 p_perm 0.002 holm 0.010 p_boot 0.000 equiv {'0.005': False, '0.01': False, '0.02': False}
+RQ6-IR YOLO11-nano                              d +0.0028 p_perm 0.363 holm 1.000 p_boot 0.314 equiv {'0.005': False, '0.01': False, '0.02': True}
+RQ6-IR YOLO11-nano CPU-trained                  d +0.0011 p_perm 0.961 holm 1.000 p_boot 0.968 equiv {'0.005': False, '0.01': False, '0.02': True}
+RQ6-IR YOLO11-nano + P2                         d +0.0005 p_perm 0.855 holm 1.000 p_boot 0.983 equiv {'0.005': False, '0.01': True, '0.02': True}
+RQ6-IR YOLO11-small + P2                        d -0.0171 p_perm 0.010 holm 0.049 p_boot 0.000 equiv {'0.005': False, '0.01': False, '0.02': False}
+RQ6-IR Shared enlarged vs separate nano         d -0.0159 p_perm 0.006 holm 0.035 p_boot 0.023 equiv {'0.005': False, '0.01': False, '0.02': False}
+RQ6-IR Shared native vs separate nano           d -0.0286 p_perm 0.012 holm 0.049 p_boot 0.001 equiv {'0.005': False, '0.01': False, '0.02': False}
+RQ6-RGB YOLO11-nano                              d +0.0002 p_perm 0.945 holm 1.000 p_boot 0.925 equiv {'0.005': False, '0.01': False, '0.02': True}
+RQ6-RGB YOLO11-nano 1280                         d -0.0041 p_perm 0.480 holm 1.000 p_boot 0.323 equiv {'0.005': False, '0.01': False, '0.02': True}
+RQ6-RGB YOLO11-small 1280                        d -0.0121 p_perm 0.123 holm 0.861 p_boot 0.055 equiv {'0.005': False, '0.01': False, '0.02': False}
+RQ6-RGB YOLO11-nano + P2                         d -0.0090 p_perm 0.682 holm 1.000 p_boot 0.741 equiv {'0.005': False, '0.01': False, '0.02': False}
+RQ6-RGB YOLO11-small + P2                        d +0.0056 p_perm 0.586 holm 1.000 p_boot 0.745 equiv {'0.005': False, '0.01': False, '0.02': True}
+RQ6-RGB Shared enlarged vs separate nano         d +0.0178 p_perm 0.486 holm 1.000 p_boot 0.252 equiv {'0.005': False, '0.01': False, '0.02': False}
+RQ6-RGB Shared native vs separate nano           d +0.0175 p_perm 0.324 holm 1.000 p_boot 0.272 equiv {'0.005': False, '0.01': False, '0.02': False}

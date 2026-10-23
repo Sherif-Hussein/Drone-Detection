@@ -1,0 +1,44 @@
+{
+  "step": 15,
+  "seed": 0,
+  "classes": [
+    "AIRPLANE",
+    "BIRD",
+    "DRONE",
+    "HELICOPTER"
+  ],
+  "sensors": {
+    "IR": {
+      "clip_test": 1181,
+      "clip_test_close": 194,
+      "clip_test_distant": 473,
+      "clip_test_medium": 514,
+      "clip_train": 5398,
+      "clip_val": 1178,
+      "random_test": 589,
+      "random_train": 5398,
+      "random_val": 589,
+      "clips_by_split": {
+        "train": 255,
+        "val": 55,
+        "test": 55
+      }
+    },
+    "V": {
+      "clip_test": 959,
+      "clip_test_close": 260,
+      "clip_test_distant": 276,
+      "clip_test_medium": 423,
+      "clip_train": 4097,
+      "clip_val": 939,
+      "random_test": 470,
+      "random_train": 4097,
+      "random_val": 469,
+      "clips_by_split": {
+        "train": 195,
+        "val": 45,
+        "test": 45
+      }
+    }
+  }
+}

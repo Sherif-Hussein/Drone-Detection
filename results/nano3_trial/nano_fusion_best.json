@@ -1,0 +1,139 @@
+{
+ "checkpoint": "best",
+ "per_seed": {
+  "0": {
+   "ap50": {
+    "thermal nano alone": 0.8903441204740118,
+    "anchored nano pair, CV-tuned": 0.8950518369508407,
+    "anchored nano pair, ProbEn default": 0.8894793851223656,
+    "anchored nano pair, MAX default": 0.8773407635444787,
+    "anchored nano pair, fixed design": 0.8964598203500237,
+    "RGB camera lost (thermal only)": 0.8903441204740118
+   },
+   "thermal_lost_rgb_frame_ap50": 0.9255539154846124,
+   "median_map_err_px": 32.450949192318475,
+   "self_calibrated_share": 0.31868131868131866
+  },
+  "1": {
+   "ap50": {
+    "thermal nano alone": 0.872488297862347,
+    "anchored nano pair, CV-tuned": 0.881852246961508,
+    "anchored nano pair, ProbEn default": 0.874222240542157,
+    "anchored nano pair, MAX default": 0.8679422508509851,
+    "anchored nano pair, fixed design": 0.8822404219308456,
+    "RGB camera lost (thermal only)": 0.872488297862347
+   },
+   "thermal_lost_rgb_frame_ap50": 0.9237861722665348,
+   "median_map_err_px": 33.745749916873514,
+   "self_calibrated_share": 0.3076923076923077
+  },
+  "2": {
+   "ap50": {
+    "thermal nano alone": 0.8596906002613458,
+    "anchored nano pair, CV-tuned": 0.875142196468331,
+    "anchored nano pair, ProbEn default": 0.864749954971247,
+    "anchored nano pair, MAX default": 0.8577496564034265,
+    "anchored nano pair, fixed design": 0.8751804074225693,
+    "RGB camera lost (thermal only)": 0.8596906002613458
+   },
+   "thermal_lost_rgb_frame_ap50": 0.9352070637736494,
+   "median_map_err_px": 32.450949192318475,
+   "self_calibrated_share": 0.32967032967032966
+  }
+ },
+ "ap50_mean": {
+  "thermal nano alone": 0.8741743395325683,
+  "anchored nano pair, CV-tuned": 0.8840154267935599,
+  "anchored nano pair, ProbEn default": 0.87615052687859,
+  "anchored nano pair, MAX default": 0.8676775569329633,
+  "anchored nano pair, fixed design": 0.8846268832344796,
+  "RGB camera lost (thermal only)": 0.8741743395325683
+ },
+ "thermal_lost_rgb_frame_mean": 0.9281823838415989,
+ "ap50_sd": {
+  "thermal nano alone": 0.015396156265197239,
+  "anchored nano pair, CV-tuned": 0.010129558542949632,
+  "anchored nano pair, ProbEn default": 0.012476974595077876,
+  "anchored nano pair, MAX default": 0.009798235397546057,
+  "anchored nano pair, fixed design": 0.010838577019128702,
+  "RGB camera lost (thermal only)": 0.015396156265197239
+ },
+ "vs_thermal_nano": {
+  "anchored nano pair, CV-tuned": {
+   "diff": 0.00984108726099168,
+   "ci95": [
+    -0.0009330242737600617,
+    0.020820992645367173
+   ],
+   "ci90": [
+    0.0007747315877901398,
+    0.01883624250203979
+   ],
+   "p_two_sided": 0.072,
+   "equivalent": false,
+   "margin": 0.01,
+   "n_sessions": 10,
+   "n_seqs": 91,
+   "n_resamples": 2000,
+   "p_perm": 0.189453125,
+   "p_perm_holm": 0.7578125
+  },
+  "anchored nano pair, ProbEn default": {
+   "diff": 0.001976187346021637,
+   "ci95": [
+    -0.003177576552531398,
+    0.010624924394301866
+   ],
+   "ci90": [
+    -0.002494668937671353,
+    0.008302790635562425
+   ],
+   "p_two_sided": 0.52,
+   "equivalent": true,
+   "margin": 0.01,
+   "n_sessions": 10,
+   "n_seqs": 91,
+   "n_resamples": 2000,
+   "p_perm": 0.66015625,
+   "p_perm_holm": 0.7578125
+  },
+  "anchored nano pair, MAX default": {
+   "diff": -0.006496782599604807,
+   "ci95": [
+    -0.01468638518568503,
+    0.005723613369908261
+   ],
+   "ci90": [
+    -0.01351231567969002,
+    0.0032413947452532947
+   ],
+   "p_two_sided": 0.278,
+   "equivalent": false,
+   "margin": 0.01,
+   "n_sessions": 10,
+   "n_seqs": 91,
+   "n_resamples": 2000,
+   "p_perm": 0.21875,
+   "p_perm_holm": 0.7578125
+  },
+  "anchored nano pair, fixed design": {
+   "diff": 0.010452543701911324,
+   "ci95": [
+    -0.0007279655640898589,
+    0.0225523454034987
+   ],
+   "ci90": [
+    0.001102531552892037,
+    0.020138031530231092
+   ],
+   "p_two_sided": 0.069,
+   "equivalent": false,
+   "margin": 0.01,
+   "n_sessions": 10,
+   "n_seqs": 91,
+   "n_resamples": 2000,
+   "p_perm": 0.212890625,
+   "p_perm_holm": 0.7578125
+  }
+ }
+}

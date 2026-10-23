@@ -1,0 +1,14 @@
+{
+ "model": "yolo11n.pt",
+ "imgsz": 640,
+ "cpu_threads": 4,
+ "epochs_done": 23,
+ "train_hours": 10.031449353694915,
+ "hours_per_epoch": 0.43614997189977894,
+ "test_AP50": 0.8896673562350926,
+ "test_AP50_95": 0.45119597518119814,
+ "test_AP75": 0.3922822312925367,
+ "infer_ms_per_frame_cpu_batch8": 78.27603800328987,
+ "n_test_frames": 2147,
+ "reference_main_study_yolo11s_gpu": 0.882
+}

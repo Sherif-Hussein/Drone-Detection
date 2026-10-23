@@ -1,0 +1,40 @@
+seed 0 held out 20190925_111757 chosen ('wbf', 2.0, 0.25) {'train_ap': 0.9114, 'train_ap_default': 0.9009, 'train_ap_ir': 0.9037}
+seed 0 held out 20190925_124000 chosen ('wbf', 0.5, 0.0) {'train_ap': 0.9221, 'train_ap_default': 0.9196, 'train_ap_ir': 0.9222}
+seed 0 held out 20190925_124612 chosen ('wbf', 2.0, 0.25) {'train_ap': 0.9072, 'train_ap_default': 0.8984, 'train_ap_ir': 0.9009}
+seed 0 held out 20190925_134301 chosen ('wbf', 0.5, 0.25) {'train_ap': 0.8915, 'train_ap_default': 0.8801, 'train_ap_ir': 0.8817}
+seed 0 held out 20190925_193610 chosen ('wbf', 2.0, 0.25) {'train_ap': 0.8866, 'train_ap_default': 0.8777, 'train_ap_ir': 0.8776}
+seed 0 held out 20190925_200805 chosen ('wbf', 0.5, 0.25) {'train_ap': 0.8916, 'train_ap_default': 0.8818, 'train_ap_ir': 0.8816}
+seed 0 held out 20190926_095902 chosen ('wbf', 2.0, 0.25) {'train_ap': 0.8861, 'train_ap_default': 0.8767, 'train_ap_ir': 0.8777}
+seed 0 held out 20190926_102042 chosen ('wbf', 2.0, 0.25) {'train_ap': 0.8857, 'train_ap_default': 0.876, 'train_ap_ir': 0.8771}
+seed 0 held out 20190926_111509 chosen ('wbf', 2.0, 0.25) {'train_ap': 0.8865, 'train_ap_default': 0.8769, 'train_ap_ir': 0.8782}
+seed 0 held out 20190926_134054 chosen ('wbf', 2.0, 0.25) {'train_ap': 0.8838, 'train_ap_default': 0.8733, 'train_ap_ir': 0.8754}
+seed 0 {'IR only': 0.8883, 'Anchored, CV-tuned': 0.8876, 'Anchored ProbEn (default)': 0.8849, 'Anchored MAX (default)': 0.8764, 'IR + IR (other seed), anchored ProbEn': 0.8871, 'IR + IR (other seed), anchored MAX': 0.8879}
+seed 1 held out 20190925_111757 chosen ('wbf', 2.0, 0.25) {'train_ap': 0.9093, 'train_ap_default': 0.9023, 'train_ap_ir': 0.9023}
+seed 1 held out 20190925_124000 chosen ('wbf', 2.0, 0.25) {'train_ap': 0.923, 'train_ap_default': 0.914, 'train_ap_ir': 0.9149}
+seed 1 held out 20190925_124612 chosen ('wbf', 2.0, 0.25) {'train_ap': 0.9004, 'train_ap_default': 0.8924, 'train_ap_ir': 0.8927}
+seed 1 held out 20190925_134301 chosen ('wbf', 2.0, 0.25) {'train_ap': 0.8887, 'train_ap_default': 0.8744, 'train_ap_ir': 0.8742}
+seed 1 held out 20190925_193610 chosen ('wbf', 2.0, 0.25) {'train_ap': 0.8796, 'train_ap_default': 0.8719, 'train_ap_ir': 0.8706}
+seed 1 held out 20190925_200805 chosen ('proben', 2.0, 0.25) {'train_ap': 0.8889, 'train_ap_default': 0.8749, 'train_ap_ir': 0.8744}
+seed 1 held out 20190926_095902 chosen ('wbf', 0.5, 0.25) {'train_ap': 0.881, 'train_ap_default': 0.8708, 'train_ap_ir': 0.8704}
+seed 1 held out 20190926_102042 chosen ('wbf', 2.0, 0.25) {'train_ap': 0.8791, 'train_ap_default': 0.8708, 'train_ap_ir': 0.8702}
+seed 1 held out 20190926_111509 chosen ('wbf', 2.0, 0.25) {'train_ap': 0.8789, 'train_ap_default': 0.8703, 'train_ap_ir': 0.8698}
+seed 1 held out 20190926_134054 chosen ('wbf', 2.0, 0.25) {'train_ap': 0.8771, 'train_ap_default': 0.8683, 'train_ap_ir': 0.8684}
+seed 1 {'IR only': 0.8804, 'Anchored, CV-tuned': 0.8867, 'Anchored ProbEn (default)': 0.8813, 'Anchored MAX (default)': 0.8757, 'IR + IR (other seed), anchored ProbEn': 0.8807, 'IR + IR (other seed), anchored MAX': 0.8808}
+seed 2 held out 20190925_111757 chosen ('wbf', 2.0, 0.25) {'train_ap': 0.9096, 'train_ap_default': 0.8939, 'train_ap_ir': 0.8958}
+seed 2 held out 20190925_124000 chosen ('wbf', 2.0, 0.25) {'train_ap': 0.9205, 'train_ap_default': 0.9122, 'train_ap_ir': 0.9147}
+seed 2 held out 20190925_124612 chosen ('wbf', 2.0, 0.25) {'train_ap': 0.8988, 'train_ap_default': 0.8834, 'train_ap_ir': 0.8855}
+seed 2 held out 20190925_134301 chosen ('wbf', 2.0, 0.25) {'train_ap': 0.882, 'train_ap_default': 0.8731, 'train_ap_ir': 0.8742}
+seed 2 held out 20190925_193610 chosen ('wbf', 2.0, 0.25) {'train_ap': 0.8795, 'train_ap_default': 0.8642, 'train_ap_ir': 0.8651}
+seed 2 held out 20190925_200805 chosen ('wbf', 2.0, 0.25) {'train_ap': 0.8837, 'train_ap_default': 0.8751, 'train_ap_ir': 0.8757}
+seed 2 held out 20190926_095902 chosen ('wbf', 2.0, 0.25) {'train_ap': 0.8783, 'train_ap_default': 0.8624, 'train_ap_ir': 0.8643}
+seed 2 held out 20190926_102042 chosen ('wbf', 2.0, 0.25) {'train_ap': 0.8783, 'train_ap_default': 0.8628, 'train_ap_ir': 0.8645}
+seed 2 held out 20190926_111509 chosen ('wbf', 2.0, 0.25) {'train_ap': 0.8776, 'train_ap_default': 0.8623, 'train_ap_ir': 0.8643}
+seed 2 held out 20190926_134054 chosen ('wbf', 2.0, 0.25) {'train_ap': 0.8768, 'train_ap_default': 0.8615, 'train_ap_ir': 0.8632}
+seed 2 {'IR only': 0.8743, 'Anchored, CV-tuned': 0.8879, 'Anchored ProbEn (default)': 0.873, 'Anchored MAX (default)': 0.8685, 'IR + IR (other seed), anchored ProbEn': 0.8745, 'IR + IR (other seed), anchored MAX': 0.8747}
+Anchored, CV-tuned - IR only 0.0064 [-0.0023, 0.0171] p_holm 0.905 
+Anchored ProbEn (default) - IR only -0.0013 [-0.0056, 0.0031] p_holm 1.0 equiv
+Anchored MAX (default) - IR only -0.0075 [-0.0135, -0.0009] p_holm 0.156 
+IR + IR (other seed), anchored ProbEn - IR only -0.0002 [-0.0012, 0.0008] p_holm 1.0 equiv
+IR + IR (other seed), anchored MAX - IR only 0.0001 [-0.0007, 0.0015] p_holm 1.0 equiv
+Anchored ProbEn (default) - IR + IR (other seed), anchored ProbEn -0.001 [-0.0064, 0.0039] p_holm 1.0 equiv
+saved ../paper/data/runs/loso_cv.json

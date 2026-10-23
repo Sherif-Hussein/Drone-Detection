@@ -1,0 +1,10 @@
+{'box-avg ProbEn': 0.05638743369384225, 'anchored ProbEn + unmatched RGB': 0.043687805761321696, 'map_err_px': 0.0, 'sigma': 0}
+{'box-avg ProbEn': 0.05629808030787461, 'anchored ProbEn + unmatched RGB': 0.043552793224802176, 'map_err_px': 2.9845873444619975, 'sigma': 2.5}
+{'box-avg ProbEn': 0.05582936878630914, 'anchored ProbEn + unmatched RGB': 0.04294341871712337, 'map_err_px': 5.969174688923927, 'sigma': 5}
+{'box-avg ProbEn': 0.04906608831120607, 'anchored ProbEn + unmatched RGB': 0.03930777284320049, 'map_err_px': 8.9537620333859, 'sigma': 7.5}
+{'box-avg ProbEn': 0.036056947339663324, 'anchored ProbEn + unmatched RGB': 0.03332249499227454, 'map_err_px': 11.938349377847828, 'sigma': 10}
+{'box-avg ProbEn': -0.029849885587541203, 'anchored ProbEn + unmatched RGB': 0.02263458616845267, 'map_err_px': 17.907524066771753, 'sigma': 15}
+{'box-avg ProbEn': -0.13819643108827465, 'anchored ProbEn + unmatched RGB': 0.011638146262691551, 'map_err_px': 23.87669875569568, 'sigma': 20}
+{'box-avg ProbEn': -0.33813882920601007, 'anchored ProbEn + unmatched RGB': -0.0015710749718669998, 'map_err_px': 35.815048133543506, 'sigma': 30}
+{'box-avg ProbEn': -0.4692042626650717, 'anchored ProbEn + unmatched RGB': -0.012240885938889131, 'map_err_px': 47.75339751139135, 'sigma': 40}
+{'sequence map': {'box-avg ProbEn': -0.2787712190833579, 'anchored ProbEn + unmatched RGB': -0.008349645281380158, 'map_err_px': 34.32119339948587}, 'windowed map (w=3)': {'box-avg ProbEn': -0.14555465518223865, 'anchored ProbEn + unmatched RGB': -0.009180988219951391, 'map_err_px': 22.16305905489991}}

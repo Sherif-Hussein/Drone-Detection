@@ -1,0 +1,40 @@
+[{"stream_name":"stderr","time":9.923003318,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.923062419,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.923070637,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.923074855,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":10.748838326,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.748880166,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.748885841,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.74888976,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":12.222505477,"data":"free disk GB /tmp: 1146.0  /kaggle/working: 20.9\n"}
+,{"stream_name":"stdout","time":12.244093826,"data":"Writing fusion_core.py\n"}
+,{"stream_name":"stdout","time":12.269068356,"data":"Writing antiuav_pipeline.py\n"}
+,{"stream_name":"stdout","time":12.282827216,"data":"Writing a410_extra_prep.py\n"}
+,{"stream_name":"stdout","time":12.299264093,"data":"Writing au300_names.json\n"}
+,{"stream_name":"stdout","time":71.645436122,"data":"DATA /kaggle/input/datasets/huseyincavus/anti-uav410/\n"}
+,{"stream_name":"stdout","time":559.714522769,"data":"{\n"}
+,{"stream_name":"stdout","time":559.714783816,"data":" \"sequences_used\": 100,\n"}
+,{"stream_name":"stdout","time":559.714795672,"data":" \"frames\": 3778,\n"}
+,{"stream_name":"stdout","time":559.714800732,"data":" \"skipped\": {\n"}
+,{"stream_name":"stdout","time":559.714805502,"data":"  \"in_au300\": 310,\n"}
+,{"stream_name":"stdout","time":559.714810254,"data":"  \"test_session\": 0\n"}
+,{"stream_name":"stdout","time":559.714815151,"data":" }\n"}
+,{"stream_name":"stdout","time":559.714819553,"data":"}\n"}
+,{"stream_name":"stdout","time":559.71482437,"data":"\n"}
+,{"stream_name":"stdout","time":559.714828914,"data":"\n"}
+,{"stream_name":"stdout","time":559.802508171,"data":"total 114520\n"}
+,{"stream_name":"stdout","time":559.8025657,"data":"drwxr-xr-x 2 root root      4096 Oct 21 13:30 .\n"}
+,{"stream_name":"stdout","time":559.802573619,"data":"drwxr-xr-x 8 root root      4096 Oct 21 13:20 ..\n"}
+,{"stream_name":"stdout","time":559.802578517,"data":"-rw-r--r-- 1 root root      2669 Oct 21 13:30 a410x_info.json\n"}
+,{"stream_name":"stdout","time":559.80258292,"data":"-rw-r--r-- 1 root root 117176320 Oct 21 13:30 a410x.tar\n"}
+,{"stream_name":"stdout","time":559.802586009,"data":"-rw-r--r-- 1 root root     76875 Oct 21 13:30 __notebook__.ipynb\n"}
+,{"stream_name":"stdout","time":559.802588978,"data":"\n"}
+,{"stream_name":"stderr","time":563.13717046,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":563.137208976,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":563.364470273,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":563.364502697,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":564.28741446,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":564.381135274,"data":"[NbConvertApp] Writing 77573 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":567.463934305,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":568.351631803,"data":"[NbConvertApp] Writing 639161 bytes to __results__.html\n"}
+]

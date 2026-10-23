@@ -1,0 +1,2 @@
+{"mode": "pair", "tag": "nano_pair", "thermal_e2e_ms_median": 214.37629999854835, "rgb_e2e_ms_median": 233.13580000103684, "thermal_ram_extra_MB": 360.984375, "rgb_ram_extra_MB": 406.75390625, "pair_ram_extra_MB": 767.73828125, "pair_fps": 4.2893455230623205}
+{"mode": "pair", "tag": "small_pair", "thermal_e2e_ms_median": 405.71825000006356, "rgb_e2e_ms_median": 542.3971499985782, "thermal_ram_extra_MB": 446.37890625, "rgb_ram_extra_MB": 522.3125, "pair_ram_extra_MB": 968.69140625, "pair_fps": 1.8436675045261968}

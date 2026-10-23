@@ -1,0 +1,175 @@
+seeds [0, 1, 2] test seqs 91 frames 2147
+robust rgb_dark {'IR frame': {'IR only': 0.8885278805687858, 'RGB only (mapped)': 0.13577104424044575, 'Late ProbEn (box avg.)': 0.63871280450309, 'Late OR (box avg.)': 0.8797440796985302, 'Anchored ProbEn': 0.8598521427933198, 'Pixel-level, IR grid': 0.8723031965324266}, 'RGB frame': {'RGB only': 0.6960489434354772, 'IR only (mapped)': 0.18327006837007184, 'Anchored ProbEn': 0.703703264999482, 'Cascade + RGB detector': 0.7130178666951231, 'Pixel-level, RGB grid': 0.6467021897508749}}
+robust rgb_fog {'IR frame': {'IR only': 0.8885278805687858, 'RGB only (mapped)': 0.21014372864164932, 'Late ProbEn (box avg.)': 0.6176019155726243, 'Late OR (box avg.)': 0.8740892865244212, 'Anchored ProbEn': 0.8830153629605084, 'Pixel-level, IR grid': 0.860924967908534}, 'RGB frame': {'RGB only': 0.8672940346317543, 'IR only (mapped)': 0.18327006837007184, 'Anchored ProbEn': 0.8670130104717879, 'Cascade + RGB detector': 0.8523851795865623, 'Pixel-level, RGB grid': 0.7482442819986481}}
+robust rgb_blur {'IR frame': {'IR only': 0.8885278805687858, 'RGB only (mapped)': 0.20738646538971264, 'Late ProbEn (box avg.)': 0.6078413365721527, 'Late OR (box avg.)': 0.8747577492860708, 'Anchored ProbEn': 0.8766929304660219, 'Pixel-level, IR grid': 0.8688682427032545}, 'RGB frame': {'RGB only': 0.845071795513701, 'IR only (mapped)': 0.18327006837007184, 'Anchored ProbEn': 0.8444725694292881, 'Cascade + RGB detector': 0.8632108209741824, 'Pixel-level, RGB grid': 0.8109296852873821}}
+robust ir_noise {'IR frame': {'IR only': 0.6425426468380243, 'RGB only (mapped)': 0.2466300461583116, 'Late ProbEn (box avg.)': 0.48628792978299806, 'Late OR (box avg.)': 0.6445911962036958, 'Anchored ProbEn': 0.6421927707577489, 'Pixel-level, IR grid': 0.7977896160473059}, 'RGB frame': {'RGB only': 0.9253944763966597, 'IR only (mapped)': 0.1307536964240996, 'Anchored ProbEn': 0.9211213900812465, 'Cascade + RGB detector': 0.9222137570246044, 'Pixel-level, RGB grid': 0.8790297693408317}}
+robust ir_lowcontrast {'IR frame': {'IR only': 0.8709038796063016, 'RGB only (mapped)': 0.2466300461583116, 'Late ProbEn (box avg.)': 0.6061163452847697, 'Late OR (box avg.)': 0.8406073098449349, 'Anchored ProbEn': 0.8672624936496053, 'Pixel-level, IR grid': 0.8118063742006624}, 'RGB frame': {'RGB only': 0.9253944763966597, 'IR only (mapped)': 0.17639475706052468, 'Anchored ProbEn': 0.9232309419113892, 'Cascade + RGB detector': 0.9227665844866749, 'Pixel-level, RGB grid': 0.9093471764515243}}
+robust rgb_missing {'IR frame': {'IR only': 0.8885278805687858, 'RGB only (mapped)': 0.0, 'Late ProbEn (box avg.)': 0.8885278805687858, 'Late OR (box avg.)': 0.8834649606330802, 'Anchored ProbEn': 0.8885278805687858, 'Pixel-level, IR grid': 0.8710766803174469}, 'RGB frame': {'RGB only': 0.0, 'IR only (mapped)': 0.18327006837007184, 'Anchored ProbEn': 0.0, 'Cascade + RGB detector': 0.18327006837007184, 'Pixel-level, RGB grid': 0.008737572375729965}}
+robust ir_missing {'IR frame': {'IR only': 0.0, 'RGB only (mapped)': 0.2466300461583116, 'Late ProbEn (box avg.)': 0.2466300461583116, 'Late OR (box avg.)': 0.2466279956190575, 'Anchored ProbEn': 0.0, 'Pixel-level, IR grid': 0.016684665230268802}, 'RGB frame': {'RGB only': 0.9253944763966597, 'IR only (mapped)': 0.0, 'Anchored ProbEn': 0.9253944763966597, 'Cascade + RGB detector': 0.9253944763966597, 'Pixel-level, RGB grid': 0.9069142232694084}}
+C:\Sherif\Drone Detection\work\code\analyze_antiuav2.py:60: RuntimeWarning: Mean of empty slice
+  return {k: {"mean": float(np.nanmean([p[k] for p in per])),
+C:\Sherif\Drone Detection\work\.venv\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+IR IR only 0.8818
+IR RGB only (mapped) 0.2408
+IR Late OR (box avg.) 0.8546
+IR Late AND (box avg.) 0.4478
+IR Late MAX (box avg.) 0.6159
+IR Late WBF (box avg.) 0.6211
+IR Late ProbEn (box avg.) 0.6119
+IR Anchored ProbEn 0.8792
+IR Anchored MAX 0.8833
+IR Anchored ProbEn + unmatched RGB 0.8758
+IR Anchored ProbEn, GT-fitted map 0.879
+IR Late ProbEn (box avg.), GT-fitted map 0.7647
+IR Cascade (mapped) 0.2509
+IR Pixel-level, IR grid 0.875
+IR Hybrid (IR+RGB+pixel) 0.8187
+IR Anchored hybrid (IR+RGB+pixel) 0.8791
+IR Late condition-aware (box avg.) 0.6286
+IR Anchored condition-aware 0.8803
+IR Pixel-level, RGB grid (mapped) 0.2538
+IR Anchored ProbEn + temporal 0.8796
+IR Swap test (anchored ProbEn) 0.881
+IR stress anchored 0px 0.8792
+IR stress box-avg 0px 0.6119
+IR stress anchored 10px 0.8792
+IR stress box-avg 10px 0.6061
+IR stress anchored 20px 0.8792
+IR stress box-avg 20px 0.5796
+IR stress anchored 40px 0.8799
+IR stress box-avg 40px 0.4542
+IR stress anchored 80px 0.8811
+IR stress box-avg 80px 0.4288
+RGB RGB only 0.9246
+RGB IR only (mapped) 0.1862
+RGB Late ProbEn (box avg.) 0.5744
+RGB Anchored ProbEn 0.923
+RGB Anchored MAX 0.9177
+RGB Cascade 0.7841
+RGB Cascade + RGB detector 0.9238
+RGB Anchored: RGB + cascade 0.9245
+RGB Pixel-level, IR grid (mapped) 0.2109
+RGB Pixel-level, RGB grid 0.889
+boot IR Anchored ProbEn - IR only {'diff': -0.0026, 'ci95': [-0.004505555820369405, -0.0007034413061407103], 'p_le_0': 0.997, 'n_seqs': 91}
+boot IR Anchored MAX - IR only {'diff': 0.0015, 'ci95': [0.00014332843817098929, 0.0029352325384153486], 'p_le_0': 0.015, 'n_seqs': 91}
+boot IR Anchored condition-aware - IR only {'diff': -0.0015, 'ci95': [-0.002348410926693073, -0.00039528242061857285], 'p_le_0': 0.998, 'n_seqs': 91}
+boot IR Anchored ProbEn + temporal - IR only {'diff': -0.0021, 'ci95': [-0.004144638832998836, 3.2139847423307265e-05], 'p_le_0': 0.971, 'n_seqs': 91}
+boot IR Late ProbEn (box avg.) - IR only {'diff': -0.2698, 'ci95': [-0.3335195349269732, -0.19229729649759328], 'p_le_0': 1.0, 'n_seqs': 91}
+boot IR Late OR (box avg.) - IR only {'diff': -0.0272, 'ci95': [-0.0416763262307672, -0.01312607700438179], 'p_le_0': 1.0, 'n_seqs': 91}
+boot IR Late condition-aware (box avg.) - IR only {'diff': -0.2531, 'ci95': [-0.3147467798568029, -0.17723950226694513], 'p_le_0': 1.0, 'n_seqs': 91}
+boot IR Pixel-level, IR grid - IR only {'diff': -0.0068, 'ci95': [-0.015058372471361665, 0.0030473267043806193], 'p_le_0': 0.902, 'n_seqs': 91}
+boot IR Hybrid (IR+RGB+pixel) - IR only {'diff': -0.0631, 'ci95': [-0.10510142820233684, -0.02942712234498644], 'p_le_0': 1.0, 'n_seqs': 91}
+boot IR Anchored hybrid (IR+RGB+pixel) - IR only {'diff': -0.0027, 'ci95': [-0.004716393290463949, -0.0009563164066873515], 'p_le_0': 0.998, 'n_seqs': 91}
+boot IR Cascade (mapped) - IR only {'diff': -0.6308, 'ci95': [-0.6921210133402266, -0.5485545741077704], 'p_le_0': 1.0, 'n_seqs': 91}
+boot IR Swap test (anchored ProbEn) - IR only {'diff': -0.0008, 'ci95': [-0.0013933707844624463, -2.3110660792653272e-05], 'p_le_0': 0.983, 'n_seqs': 91}
+boot IR Anchored ProbEn, GT-fitted map - IR only {'diff': -0.0028, 'ci95': [-0.004950963922064993, -0.0009061191747478743], 'p_le_0': 0.997, 'n_seqs': 91}
+boot IR Anchored ProbEn - Late ProbEn (box avg.) {'diff': 0.2673, 'ci95': [0.1897371213514963, 0.33077487634077385], 'p_le_0': 0.0, 'n_seqs': 91}
+boot RGB Anchored ProbEn - RGB only {'diff': -0.0016, 'ci95': [-0.0030056867680102028, -0.00025710638565739843], 'p_le_0': 0.993, 'n_seqs': 91}
+boot RGB Cascade + RGB detector - RGB only {'diff': -0.0008, 'ci95': [-0.004706447015886888, 0.006602644284209413], 'p_le_0': 0.341, 'n_seqs': 91}
+boot RGB Anchored: RGB + cascade - RGB only {'diff': -0.0001, 'ci95': [-0.0006469783371390212, 0.0008247652999221189], 'p_le_0': 0.404, 'n_seqs': 91}
+boot RGB Pixel-level, RGB grid - RGB only {'diff': -0.0364, 'ci95': [-0.060390830991196985, -0.011187526398683282], 'p_le_0': 0.999, 'n_seqs': 91}
+boot RGB Late ProbEn (box avg.) - RGB only {'diff': -0.3502, 'ci95': [-0.420473205799222, -0.2742913806359848], 'p_le_0': 1.0, 'n_seqs': 91}
+cluster IR Anchored ProbEn - IR only -0.0026 [-0.0061, 0.0004] p_holm 0.465 equiv
+cluster IR Anchored MAX - IR only 0.0015 [-0.0003, 0.0045] p_holm 0.484 equiv
+cluster IR Anchored condition-aware - IR only -0.0015 [-0.0031, 0.0] p_holm 0.366 equiv
+cluster IR Anchored ProbEn + temporal - IR only -0.0021 [-0.0059, 0.0015] p_holm 0.504 equiv
+cluster IR Late ProbEn (box avg.) - IR only -0.2698 [-0.4272, -0.1343] p_holm 0.0 
+cluster IR Late OR (box avg.) - IR only -0.0272 [-0.0501, -0.0107] p_holm 0.009 
+cluster IR Late condition-aware (box avg.) - IR only -0.2531 [-0.4085, -0.115] p_holm 0.0 
+cluster IR Pixel-level, IR grid - IR only -0.0068 [-0.0204, 0.0059] p_holm 0.504 
+cluster IR Hybrid (IR+RGB+pixel) - IR only -0.0631 [-0.1599, -0.0038] p_holm 0.032 
+cluster IR Anchored hybrid (IR+RGB+pixel) - IR only -0.0027 [-0.0058, -0.0007] p_holm 0.035 equiv
+cluster IR Cascade (mapped) - IR only -0.6308 [-0.7388, -0.4905] p_holm 0.0 
+cluster IR Anchored ProbEn, GT-fitted map - IR only -0.0028 [-0.0075, 0.0007] p_holm 0.484 equiv
+cluster IR Anchored ProbEn - Late ProbEn (box avg.) 0.2673 [0.1294, 0.4246] p_holm 0.0 
+cluster RGB Anchored ProbEn - RGB only -0.0016 [-0.0039, -0.0] p_holm 0.147 equiv
+cluster RGB Cascade + RGB detector - RGB only -0.0008 [-0.0058, 0.0083] p_holm 1.0 equiv
+cluster RGB Anchored: RGB + cascade - RGB only -0.0001 [-0.0009, 0.0008] p_holm 1.0 equiv
+cluster RGB Pixel-level, RGB grid - RGB only -0.0364 [-0.0633, -0.0033] p_holm 0.072 
+cluster RGB Late ProbEn (box avg.) - RGB only -0.3502 [-0.5183, -0.2098] p_holm 0.0 
+complementarity null {
+"same_modality_seed_pairs": {
+"IR s0 vs IR s1": {
+"one_only": 0.0275,
+"either": 0.885,
+"gain_over_better": 0.00550000000000006
+},
+"RGB s0 vs RGB s1": {
+"one_only": 0.041,
+"either": 0.9105,
+"gain_over_better": 0.016000000000000014
+},
+"IR s0 vs IR s2": {
+"one_only": 0.028,
+"either": 0.884,
+"gain_over_better": 0.0045000000000000595
+},
+"RGB s0 vs RGB s2": {
+"one_only": 0.0305,
+"either": 0.9075,
+"gain_over_better": 0.013000000000000012
+},
+"IR s1 vs IR s2": {
+"one_only": 0.0225,
+"either": 0.873,
+"gain_over_better": 0.010000000000000009
+},
+"RGB s1 vs RGB s2": {
+"one_only": 0.0345,
+"either": 0.905,
+"gain_over_better": 0.015000000000000013
+}
+},
+"ir_vs_rgb_by_threshold": {
+"s0": {
+"0.1": {
+"one_only": 0.0985,
+"either": 0.949,
+"gain_over_better": 0.03599999999999992
+},
+"0.3": {
+"one_only": 0.1055,
+"either": 0.947,
+"gain_over_better": 0.039999999999999925
+},
+"0.5": {
+"one_only": 0.107,
+"either": 0.9405,
+"gain_over_better": 0.04600000000000004
+},
+"0.7": {
+"one_only": 0.115,
+"either": 0.934,
+"gain_over_better": 0.055500000000000105
+},
+"0.9": {
+"one_only": 0.1575,
+"either": 0.922,
+"gain_over_better": 0.06400000000000006
+}
+},
+"s1": {
+"0.1": {
+"one_only": 0.1135,
+"either": 0.949,
+"gain_over_better": 0.038999999999999924
+},
+"0.3": {
+"one_only": 0.1235,
+"either": 0.9445,
+"gain_over_better": 0.04700000000000004
+},
+"0.5": {
+"one_only": 0.1345,
+"either": 0.9415,
+"gain_over_better": 0.05600000000000005
+},
+"0.7": {
+"one_only": 0.1425,
+"either": 0.937,
+"gain_over_better": 0.0625
+},
+"0.9": {
+"one_on
+saved ../paper/data/analysis_antiuav_rev.json

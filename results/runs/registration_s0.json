@@ -1,0 +1,160 @@
+{
+ "val|IR only": 0.9885087559208876,
+ "val|RGB only": 0.9834658301165152,
+ "val|sequence map": {
+  "map_err_px": 26.051033039395264,
+  "RGB mapped AP50": 0.20731149848101366,
+  "IRframe anchored g0.0": -0.0008516988354080324,
+  "RGBframe anchored g0.0": 0.00036592278631464303,
+  "IRframe anchored g0.5": -0.005850106095973695,
+  "RGBframe anchored g0.5": -0.0017836096318256667,
+  "IRframe anchored g1.0": -0.009147751437803553,
+  "RGBframe anchored g1.0": -0.016914861054022956,
+  "IRframe box-avg": -0.317974667199288
+ },
+ "val|window 1": {
+  "map_err_px": 16.404640408935837,
+  "RGB mapped AP50": 0.2727966469075251,
+  "IRframe anchored g0.0": -0.000936361440246114,
+  "RGBframe anchored g0.0": 0.00038347628413171186,
+  "IRframe anchored g0.5": -0.005399512482222146,
+  "RGBframe anchored g0.5": -0.0017464822183778095,
+  "IRframe anchored g1.0": -0.00964409248504261,
+  "RGBframe anchored g1.0": -0.02272836083382368,
+  "IRframe box-avg": -0.16644857009802005
+ },
+ "val|window 2": {
+  "map_err_px": 14.603498542452124,
+  "RGB mapped AP50": 0.3195784399396204,
+  "IRframe anchored g0.0": -0.0006316595448161433,
+  "RGBframe anchored g0.0": 0.0006365714506658682,
+  "IRframe anchored g0.5": -0.004572354269079093,
+  "RGBframe anchored g0.5": -0.0011858413596289585,
+  "IRframe anchored g1.0": -0.008359163723867913,
+  "RGBframe anchored g1.0": -0.015654967557194754,
+  "IRframe box-avg": -0.1266536140172173
+ },
+ "val|window 3": {
+  "map_err_px": 14.160903913121155,
+  "RGB mapped AP50": 0.3338857322440084,
+  "IRframe anchored g0.0": -0.000776159071305127,
+  "RGBframe anchored g0.0": 0.0005287898698399518,
+  "IRframe anchored g0.5": -0.004616944878220952,
+  "RGBframe anchored g0.5": -0.0012610389463419969,
+  "IRframe anchored g1.0": -0.008237300523713076,
+  "RGBframe anchored g1.0": -0.015017908117618273,
+  "IRframe box-avg": -0.11962570217838531
+ },
+ "val|window 5": {
+  "map_err_px": 14.357586596040376,
+  "RGB mapped AP50": 0.3358683908909778,
+  "IRframe anchored g0.0": -0.0008376737512718613,
+  "RGBframe anchored g0.0": 0.0004772257680647485,
+  "IRframe anchored g0.5": -0.004626666570771265,
+  "RGBframe anchored g0.5": -0.0014907856861822166,
+  "IRframe anchored g1.0": -0.007907813544834719,
+  "RGBframe anchored g1.0": -0.014129434403850727,
+  "IRframe box-avg": -0.11720387748107186
+ },
+ "val|window 8": {
+  "map_err_px": 15.580255399724221,
+  "RGB mapped AP50": 0.3266297068343152,
+  "IRframe anchored g0.0": -0.0008954198910482436,
+  "RGBframe anchored g0.0": 0.0005633421770795399,
+  "IRframe anchored g0.5": -0.005428863963073294,
+  "RGBframe anchored g0.5": -0.0013666182482576783,
+  "IRframe anchored g1.0": -0.00794349303904085,
+  "RGBframe anchored g1.0": -0.012980613039954791,
+  "IRframe box-avg": -0.1382885991737931
+ },
+ "val|oracle per-frame": {
+  "map_err_px": 0.0,
+  "RGB mapped AP50": 0.6385593579480242,
+  "IRframe anchored g0.0": -0.0006666707578025788,
+  "RGBframe anchored g0.0": 0.0003024865016407752,
+  "IRframe anchored g0.5": -0.00225444956203813,
+  "RGBframe anchored g0.5": -0.0002496942930355628,
+  "IRframe anchored g1.0": -0.002893391758848951,
+  "RGBframe anchored g1.0": -0.001384784010198814,
+  "IRframe box-avg": -0.0038259630655422816
+ },
+ "test|IR only": 0.8885278805687858,
+ "test|RGB only": 0.9253944763966597,
+ "test|sequence map": {
+  "map_err_px": 33.546812450422934,
+  "RGB mapped AP50": 0.2466300461583116,
+  "IRframe anchored g0.0": -0.004769366635550276,
+  "RGBframe anchored g0.0": -0.0016111507233818045,
+  "IRframe anchored g0.5": -0.0010425570564562836,
+  "RGBframe anchored g0.5": -0.017229361290160172,
+  "IRframe anchored g1.0": -0.006688807998014856,
+  "RGBframe anchored g1.0": -0.06412899250137427,
+  "IRframe box-avg": -0.2708731270434138
+ },
+ "test|window 1": {
+  "map_err_px": 25.618660438463536,
+  "RGB mapped AP50": 0.3167125555984576,
+  "IRframe anchored g0.0": -0.005359097325902451,
+  "RGBframe anchored g0.0": -0.0026454425343510612,
+  "IRframe anchored g0.5": -0.002049250313708728,
+  "RGBframe anchored g0.5": -0.016801093495481312,
+  "IRframe anchored g1.0": -0.00939738661657652,
+  "RGBframe anchored g1.0": -0.06944426909918999,
+  "IRframe box-avg": -0.13928843206346464
+ },
+ "test|window 2": {
+  "map_err_px": 21.93477112303396,
+  "RGB mapped AP50": 0.35893442777656676,
+  "IRframe anchored g0.0": -0.005003414464523237,
+  "RGBframe anchored g0.0": -0.0024961927914123327,
+  "IRframe anchored g0.5": -0.0006607781837846272,
+  "RGBframe anchored g0.5": -0.015398518840885389,
+  "IRframe anchored g1.0": -0.00682835072058241,
+  "RGBframe anchored g1.0": -0.05829815976893893,
+  "IRframe box-avg": -0.12650080867347668
+ },
+ "test|window 3": {
+  "map_err_px": 20.957233625451522,
+  "RGB mapped AP50": 0.3678946340930214,
+  "IRframe anchored g0.0": -0.0049642062624017935,
+  "RGBframe anchored g0.0": -0.0013905118949931738,
+  "IRframe anchored g0.5": -0.0014931219781655347,
+  "RGBframe anchored g0.5": -0.014381693460402523,
+  "IRframe anchored g1.0": -0.0075959630593289695,
+  "RGBframe anchored g1.0": -0.055581451945524996,
+  "IRframe box-avg": -0.12734488106050423
+ },
+ "test|window 5": {
+  "map_err_px": 22.180534655416775,
+  "RGB mapped AP50": 0.3646072675573954,
+  "IRframe anchored g0.0": -0.0048640316276278295,
+  "RGBframe anchored g0.0": -0.0016672139656735974,
+  "IRframe anchored g0.5": -0.000528083750308106,
+  "RGBframe anchored g0.5": -0.014928575314064663,
+  "IRframe anchored g1.0": -0.0061665064672346,
+  "RGBframe anchored g1.0": -0.054432868091597086,
+  "IRframe box-avg": -0.12306015507925894
+ },
+ "test|window 8": {
+  "map_err_px": 21.958301017739405,
+  "RGB mapped AP50": 0.3628546930747487,
+  "IRframe anchored g0.0": -0.0045930531188648205,
+  "RGBframe anchored g0.0": -0.0022543114842428214,
+  "IRframe anchored g0.5": 0.0005601049358210375,
+  "RGBframe anchored g0.5": -0.016226928459171286,
+  "IRframe anchored g1.0": -0.004588025810985608,
+  "RGBframe anchored g1.0": -0.05523079118067886,
+  "IRframe box-avg": -0.12659052257654724
+ },
+ "test|oracle per-frame": {
+  "map_err_px": 0.0,
+  "RGB mapped AP50": 0.8244887214124558,
+  "IRframe anchored g0.0": -0.004056703135829176,
+  "RGBframe anchored g0.0": -0.0020964614073037957,
+  "IRframe anchored g0.5": 0.02931106557482721,
+  "RGBframe anchored g0.5": -0.0003345905020138984,
+  "IRframe anchored g1.0": 0.030753485255968993,
+  "RGBframe anchored g1.0": -0.008132429928829454,
+  "IRframe box-avg": 0.04419974403540683
+ }
+}
